@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function progress_bar_field_theme($existing, $type, $theme, $path) {
+  return [
+    'circular_progress_bar_formatter' => [
+      'variables' => ['percentage' => NULL, 'color' => '#000000', 'border_color' => '#000000', 'text_color' => '#000000'],
+      'template' => 'circular-progress-bar-formatter',
+    ],
+    'dock_progress_bar_formatter' => [
+      'variables' => ['percentage' => NULL, 'color' => '#000000', 'border_color' => '#000000', 'text_color' => '#000000'],
+      'template' => 'dock-progress-bar-formatter',
+    ],
+    'progress_bar_formatter' => [
+      'variables' => ['percentage' => NULL, 'color' => '#000000', 'border_color' => '#000000', 'text_color' => '#000000'],
+      'template' => 'progress-bar-formatter',
+    ],
+  ];
+}
+

@@ -1,0 +1,29 @@
+progress_bar_style:
+  version: 1.x
+  css:
+    theme:
+      css/progress_bar_field.css: {}
+  js:
+    js/progress_bar_field.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+dock_progress_bar_styles:
+  version: 1.x
+  css:
+    theme:
+      css/dock_progress_bar.css: {}
+  js:
+    js/dock_progress_bar.js: {}
+
+circular_progress_bar_styles:
+  version: 1.x
+  css:
+    theme:
+      css/circular_progress_bar.css: {}
+  js:
+    js/circular_progress_bar.js: {}
+
+
+

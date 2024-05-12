@@ -1,0 +1,8 @@
+name: 'Progress Bar Field'
+type: module
+description: 'Provides a custom progress bar field type.'
+core_version_requirement: ^9 || ^10
+package: Custom
+dependencies:
+  - drupal:field
+  - drupal:views

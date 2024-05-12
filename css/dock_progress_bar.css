@@ -1,0 +1,18 @@
+@import 'variables.css';
+
+.dock-progress-bar {
+  display: flex;
+  padding: 5px;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin: 2px;
+  background-color: var(--progress-background-color);
+}
+
+.dot[data-value="true"] {
+  background-color: var(--progress-active-color);
+}

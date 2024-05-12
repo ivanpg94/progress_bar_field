@@ -1,0 +1,26 @@
+.progress-bar-container {
+  padding: 5px;
+  margin: 10px 0;
+  border: 2px solid; /* Restaura el borde con una propiedad heredada para el color */
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra para profundidad */
+  background: #fff; /* Fondo claro para contrastar con la barra si es necesario */
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: inherit; /* Usa el color de fondo especificado en el style en línea */
+  transition: width 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Para un mejor manejo del texto */
+  border-radius: 3px; /* Bordes redondeados dentro del contenedor */
+}
+
+.progress-bar span {
+  color: inherit; /* Hereda el color del texto especificado en el style en línea */
+  font-weight: bold; /* Hace el texto más legible */
+  padding: 0 10px; /* Espaciado interno para no tocar los bordes */
+}
